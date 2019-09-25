@@ -1,0 +1,53 @@
+body {
+  height: 1000px;
+  text-align: center;
+  background: linear-gradient(to bottom, #ffffcc 55%, #ff6600 100%)
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+tr:hover {
+  background-color: rgba(255, 255, 0, 0.418);
+  color: lightgray;
+  cursor: pointer;
+}
+
+.colorGray {
+  background: lightgray;
+}
+
+.pad {
+  padding: 0px;
+}
+
+.marg {
+  margin: 0px;
+}
+
+.pad1 {
+  padding: 20px;
+}
+
+p.b {
+  font-size: 300%;
+}
+
+p.c {
+  font-size: 150%;
+}
+
+.rcorners1 {
+  border-radius: 0px 0px 30px 30px;
+  background: white;
+  padding: 1px;
+  height: 50px;
+}
+
+#container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column-reverse;
+}
